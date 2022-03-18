@@ -13,6 +13,7 @@ func main() {
 	if len(os.Args) < 2 {
 		panic("Please insert an argument with the seconds you want this code to run for")
 	}
+	fmt.Printf("Process ID = %d \n", os.Getegid())
 	PrintMemUsage()
 	fmt.Println("Memory after:")
 	seconds, _ := strconv.Atoi(os.Args[1])
