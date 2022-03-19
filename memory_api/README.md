@@ -21,3 +21,5 @@ In this homework, you will gain some familiarity with memory allocation. First, 
     0x00005555555551af in main () at null.c:9
     9           printf("%d \n ", *x);
 ```
+
+3. 
